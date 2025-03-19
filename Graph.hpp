@@ -16,7 +16,7 @@ public:
 
 	void addEdge(int v, int w);
     
-	/* get the smallest distances from a vertex with startVertexId
+	/* get the shortest distances from a vertex with startVertexId
 	to all other vertices using Breadth First Search (BFS) */
 	std::vector<int> BFS(int startVertexId);
 };
